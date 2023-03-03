@@ -1,0 +1,1 @@
+gunicorn --bind [::]:1111 app:app -w 6 -t 200 --reload
